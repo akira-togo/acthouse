@@ -1,0 +1,70 @@
+div{
+	width:100px;
+	height:100px;
+	background-color: rgba(255,0,0,0.3);
+	margin:10px;
+}
+div.monsterball{
+	width:200px;
+	height: 100px;
+	margin-bottom: 0;
+	border:2px solid black;
+	background-image:linear-gradient(to left top, red 40% ,white 80%);
+	border-radius:100px 100px 0 0;
+}
+div.monsterball2{
+	width:200px;
+	height:100px;
+	margin-top: 0;
+	border: 2px solid black;
+	background-color:white;
+	border-radius:0 0 100px 100px;
+}
+.center{
+	width:50px;
+	height:50px;
+	border-radius: 100px;
+	border:3px solid black;
+	background-color:white;
+	position: absolute;
+	top:860px;
+	left:80px;
+}
+
+.radius1{
+	border-radius: 30px;
+}
+.radius2{
+	border-radius: 10px 20px 30px 40px;
+}
+.radius3{
+	border-radius: 50px;
+}
+.radius4{
+     border-radius: 30px 0 0 30px;
+}
+.radius5{
+	border-radius:0 30px 30px 0;
+	background-color: red;
+}
+.radius6{
+	border-radius: 10px 20px 30px 40px / 40px 30px 20px 10px;
+}
+.radius7{
+	border-top-left-radius: 10px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:40px;
+}
+#boxshadow{
+	width:100px;
+	border-radius: 
+	background-color: green;
+	box-shadow:10px 10px 10px 5px gray inset;
+	margin-bottom: 24px; 
+}
+h1#unk{
+	color:aqua;
+	font-size: 2em;
+	text-shadow: 10px 10px 5px #000;
+}

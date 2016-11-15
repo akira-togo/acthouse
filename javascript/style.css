@@ -1,0 +1,34 @@
+div{
+	width: 100px;
+	height: 100px;
+	background-color: #ffffcc;
+}
+#div1{
+	width:100px;
+	height:100px;
+	background-color:black;
+	display:inline-block;
+	margin-left:1px;
+}
+#div2{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	transition-property:background-color,border-radius;
+	transition-duration:2s;
+}
+
+#container {
+	width: 300px;
+	height: 300px;
+}
+
+#container div {
+	float: left;
+	margin: 1px;
+}
+#container .child {
+	width: 10%;
+	height: 10%;
+	background-color: pink;
+}

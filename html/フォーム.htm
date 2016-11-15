@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///Users/tougouakira/Desktop/html/form.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>フォーム</title>
+	<link rel="stylesheet" href="./フォーム_files/form.css">
+</head>
+<body>
+ <form action="" method="post">
+ <fieldset>
+ 	<label><legend>お名前;</legend><input type="text" name="name">
+ </fieldset></label>
+ <fieldset>
+     <label><legend>郵便番号</legend><input type="text" name="zipCode" size="20" maxlength="8"
+     pattern="\d{3}-?\d{4}" title="3桁+ハイフン(-)+4桁で入力してください。"
+     placeholder="123-4567"></label>
+ </fieldset>
+ <fieldset>
+     <legend>都道府県</legend>
+     <select name="pref">
+         <option value="">---選択してくださいーーーー</option>
+     　　<optgroup label="関東">
+         <option value="神奈川">大阪</option>
+         <option value="東京">東京</option>
+         </optgroup>
+         <optgroup label="負け組">
+         <option value="福岡">福岡</option>
+         <option value="名古屋">名古屋</option>
+         </optgroup>
+     </select>
+ </fieldset> 
+ <fieldset>
+ <legend>ショッピングモール</legend>
+     <input type="text" name="mall" size="30" list="malls" placeholder="ショッピングモールの名前を入力してください" required>
+ <datelist id="malls">
+    <option value="アヤラセンター"></option>
+    <option value="smモール"></option>  
+    <option value="smシーサイドモール"></option>  
+    <option value="カントリーモール"></option>
+ </datelist>
+ </fieldset>
+ <fieldset>
+     <legend>乗り物</legend>
+     <label><input type="checkbox" name="vehicle" value="タクシー">タクシー</label>
+     <label for="">
+         <input type="checkbox" name="vehicle" value="ジプニー" checked>ジプニー
+     </label>
+     <label for="">
+         <input type="checkbox" name="vehicle" value="ば痛く">ば痛く
+     </label>
+ </fieldset>
+ <fieldset>
+     <legend>パスワード</legend>
+     <input type="password" name="password" size="30" maxlength="18" title="半角英数字で入力してください" required=required>
+</fieldset>
+ <fieldset>        
+ <label><legend>ご回答:</legend></label>
+    <label><input type="radio" name="replay" value="回答1">回答１</label>
+    <label>
+     <input type="radio" name="replay" value="回答２">回答２
+    </label>
+    <label>
+     <input type="radio" name="replay" value="回答３">回答３
+    </label>
+ </fieldset>
+ <fieldset>
+     <legend>画像</legend>
+     <input type="file" name="image" accept="image">
+ </fieldset>
+ <fieldset>
+     <legend>感想</legend>
+     <textarea name="impression" cols="30" rows="10" placeholder="初期表示値"></textarea>
+ </fieldset>
+ <input type="hidden" name="lastvehicle" value="タクシー">
+ <p>
+ 	<input type="submit" value="送信する">
+    <input type="button" value="なんでもないボタン">
+    <button type="button">buttonタグでサブミット</button>
+ </p>
+ </form>
+
+
+
+<form　action="challenge"　method="post">
+<h1>ITアンケート</h1>
+<fieldset>
+ 	<label><legend>お名前：<input type="text" name="name"></legend></label>
+</fieldset>
+ </p>
+ <p>
+  <fieldset>
+  <label><legend>メールアドレス：<input type="text" name="email"></legend></label>
+  </fieldset>
+ </p>
+ <p>
+ <fieldset>
+ 	<label><legend>電話番号：<input type="text" name="number"></legend></label>
+</fieldset>
+ </p> 
+ <p>都道府県</p>
+  <select name="city">
+    <option value="">-------選択してください---------</option>
+    <optgroup label="関東">関東
+    <option value="hokkaidou">北海道</option>
+    <option value="toukyou">東京</option>
+    </optgroup>
+    <optgroup label="関西">
+    <option value="oosaka">大阪</option>
+    <option value="fukuoka">福岡</option>
+    <option value="okinawa">沖縄</option>
+    </optgroup>
+  </select>
+ <p>
+ 	現在のHTMLの理解度を教えてください：
+ 	<label><input type="radio" name="level">低い</label>
+ 	<label><input type="radio" name="level">普通</label>
+    <label><input type="radio" name="level">高い</label>
+ </p>
+ <p>
+ 	現在のCSSの理解度を教えてください：
+ 	<input type="radio" name="level">低い
+ 	<input type="radio" name="level">普通
+ 	<input type="radio" name="level">高い
+ </p>
+ <p>
+ 	聞いたことがあるプログラミング言語を選択してください（複数可）
+ 	<label><input type="checkbox" name="level">C</label>
+ 	<label><input type="checkbox" name="level">Java</label>
+ 	<label><input type="checkbox" name="level">PHP</label>
+ 	<label><input type="checkbox" name="level">Ruby</label>
+ 	<lavel><input type="checkbox" name="level">JavaScript</lavel>
+ </p>
+ <p>
+ 	<label><input type="submit" value="送信"></label>
+ </p>
+
+
+</form　action="challenge"　method="post"></body></html>

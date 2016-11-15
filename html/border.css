@@ -1,0 +1,34 @@
+div{
+	width:150px;
+	height:150px;
+}
+#samp1{
+	background: radial-gradient(circle farthest-side,red 20%,white 80%,black 50%,black 100%);
+}
+#samp2{
+	background: radial-gradient(circle farthest-side,red 20%,white 80%,black 50%,black 100%);
+    background-size:  50px 50px;
+    background-repeat: 30px 40px;
+}
+#samp3{
+	background: linear-gradient(to top,#6cf,#6cf 50%,#ff9 50%,#ff9 100%);
+	background-size:100px 15px;
+}
+#samp4{
+	background: linear-gradient(to left,red,red 50%,black 100%);
+	background-size:20px 10px;
+}
+#samp5{
+	background: linear-gradient(
+		to left top,
+		red,
+		red 25%,black 25%,
+		black 50%, red 50%,
+		red 75%, black 75%,
+		black);
+	background-size: 10px 10px;
+}
+#samp7{
+	background-color:blue;
+	background-
+}

@@ -1,0 +1,114 @@
+body{
+		width:auto;
+	    color:black;
+	    font-family:Arial, sans-serif;
+	    background-color:white;
+	}
+	div#head{
+		background:#012e4f;
+		font-size:50px;
+		color:white;
+		height:auto;
+
+	}
+	header{
+		 font-size:auto;
+		 text-align:left;
+		 margin-bottom:0;
+		 padding-bottom:none;
+	}
+	img{
+		padding:auto;
+		margin-bottom:0;
+		width:auto;
+		height:auto;
+	}
+	
+	div#g{
+		background-image:(aaa.jpeg) no-repeat;
+		width:100%;
+	}
+	h1{
+		background-color:black;
+		margin-bottom:0;
+	}
+	h2{
+		font-weight:normal;
+		color:#2a4982;
+	}
+	div.content1{
+		background-color:white;
+	}
+	div.content2{
+		background-color:line-;
+	}
+	li.content{
+		width:100%;
+		background-color:#afb6bc;
+		margin-top:15px;
+	}
+	div.footer p{
+		color:#2379c9;
+		text-align:center;
+	}
+	footer{
+		width:100%;
+		display:block;
+		color:#ffffff;
+		margin-left:-15px;
+		margin-right:-15px;
+		background:#012e4f;
+	}
+   
+	p.kyakutyu a:hover{
+		color:black;
+	}
+	p.sankoubunken a:hover{
+		color:black;
+	}
+	p.gaiburinku a:hover{
+		color:black;
+	}
+	p#kontyu{
+		color:green;
+	}
+	h2.rekisi a{
+		font-size:30px;
+		color:brown;
+	}
+	h2.sangyou a{
+		font-size:30px;
+		color:green;	}
+	h2.bunka a{
+		font-size:30px;
+		color:#ffff00;
+	}
+	h2.kankou a{
+		 font-size:30px;
+		 color:#00ffff;
+	}
+	h2.sonota a{
+		font-size:30px;
+		color:#2f4f4f;
+	}
+	
+
+	.btn a{
+		background: url(bbb.png) no-repeat right top;
+		width: 30px;
+		height: 100px;
+		display: block;
+		color: black;
+		font-size: 2px;
+		line-height: 36px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.kikai-inner{
+		/*margin:0 auto;*/
+		display: flex;
+		justify-content: space-between;
+	}

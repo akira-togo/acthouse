@@ -1,0 +1,102 @@
+body{
+	width:100%;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family: Arial, sans-serif;
+	line-height:19px;
+    /*background :url(pattern.jpg)repeat;  */
+    background:linear-gradient(to bottom, white 50%, black 100%);
+}
+div#container{
+	width:900px;
+	margin:0px auto 0;
+	padding:30px;
+	background:linear-gradient(to right bottom, red 0% ,white 20%, red 40%, white 60%, red 80%, white 100%);{
+
+}
+dl.sidemenu{
+	background: url(../img/dt_bg.jpg) repeat-x;
+    height: 32px;
+    width: 240px;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #FFF;
+    text-indent: 0.7em;
+    margin-bottom: 5px;
+}
+div.toppu{
+	color:yellow;
+}
+li{
+	display:inline-block;
+}
+div#afurika{
+	color:green;
+}
+header{
+	padding:30px;
+	background:radial-gradient(ellipse farthest-corner at center, black 0%,white 100%);
+	color:#ffffff;
+}
+footer{
+	font:bold 80%/1em Arial, Helvetica,sans-serif ;
+	color:#ffffff;
+	text-align: center;
+	padding:10px;
+	background: #000000;
+
+}
+img{
+	width:400px;
+	border-style:solid;
+}
+a{
+	font-size:150%;
+	font-weight:bold;
+	color:#ff6666;
+	text-decoration:none;
+
+}
+a:hover{
+	color:#9000ff;
+	text-decoration: underline;
+	font-style:italic;
+}
+a:link{
+	color:red;
+	text-decoration: underline;
+	font-style:italic;
+}
+a:visited{
+	color:gold;
+	text-decoration: underline;
+	font-style:italic;
+}
+a:active{
+	color:blue;
+	text-decoration: underline;
+	font-style:italic
+}
+.btn a{
+	background: url(bbb.gif) no-repeat left top;
+	width: 140px;
+	height: 36px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.btn a:hover {
+	background: url(bbb.gif) no-repeat right
+	top;
+	color:#9000ff;
+	text-decoration: underline;
+	font-style:italic;
+}
+.btn {
+	display: inline-block;
+}

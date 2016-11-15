@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>フォーム</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+ <form action="" method>
+ 	<p>
+ 		お名前;<input type="text" name="name" value="東郷茂雄">
+ 		お名前;<input type="text" name="name" value="東郷里美">
+ 	</p>
+ 	<p>ご回答:
+    <label>
+    	<input type="radio" name="replay" value="回答1" checked>回答１
+    </label>
+    <label>
+    	<input type="radio" name="replay" value="回答２">回答２
+    </label>
+    <label>
+    	<input type="radio" name="replay" value="回答３">回答３
+    </label>
+ 	</p>
+ 	<p>
+ 		<input type="submit" value="送信する">
+ 	</p>
+ </form>
+
+
+
+<form　action="challenge"　method="post">
+<h1>ITアンケート</h1>
+ <p>
+ 	<label>お名前：<input type="text" name="name"></label>
+ </p>
+ <p>
+  <label>メールアドレス：<input type="text" name="email"></label>
+ </p>
+ <p>
+ 	<label>電話番号：<input type="tel" name="number"></label>
+ </p>
+ <p>
+ 	<label>パスワード:<input type="password" name="pi"></label>
+ </p>
+ <p>
+ 	現在のHTMLの理解度を教えてください：
+ 	<label><input type="radio" name="level">低い</label>
+ 	<input type="radio" name="level">普通
+    <input type="radio" name="level">高い
+ </p>
+ <p>
+ 	現在のCSSの理解度を教えてください：
+ 	<input type="radio" name="level">低い
+ 	<input type="radio" name="level">普通
+ 	<label><input type="radio" name="level">高い</label>
+ </p>
+ <p>
+ 	聞いたことがあるプログラミング言語を選択してください（複数可）
+ 	<label><input type="checkbox" name="level">C</label>
+ 	<label><input type="checkbox" name="level">Java</label>
+ 	<label><input type="checkbox" name="level">PHP</label>
+ 	<label><input type="checkbox" name="level">Ruby</label>
+ 	<lavel><input type="checkbox" name="level">JavaScript</lavel>
+ </p>
+ <p>都道府県
+ 　　<select>
+    <option>選択してください</option>
+    <option selected="hokkaido">北海道</option>
+    <option>韓国</option>
+    <option>中国</option>
+    <option>日本</option>
+    <option>アメリカ</option>
+ </p>
+ <p>
+ 	<label><input type="submit" value="送信"></label>
+ </p>
+</body>
+</html>
