@@ -1,0 +1,149 @@
+body{
+	background-color:white;
+	margin:0;
+	width:auto;
+}
+#header{
+	width:100%;
+	border:10px solid black;
+	height:125px;
+	background-color:white;
+    text-align:center;
+	padding: 40px;
+}
+#header h1{
+	color:black;
+	font-size:81px;
+	font-family:serif;
+	line-height:33px; 
+	position:absolute;
+	/*font-weight: inherit*/
+	font-weight:200px;
+    letter-spacing:50px;
+}
+#contener{
+	width:100%;
+	height:100%;
+}
+#content{
+	width:100%;
+}
+#main{
+	width:70%;
+}
+
+
+
+
+
+#sideber{
+	width:30%;
+	float:right;
+}
+#sideber h2{
+	background-color:#333333;
+	width:140px;
+	height:25px;
+	padding:7px;
+	color:white;
+	font-size:20px;
+}
+#sideber img{
+	width:146px;
+	float:left;
+	clear:both;
+}
+
+
+
+
+
+#footer{
+	width:100%;
+	height:475px;
+	background-color:#444444;
+	clear:both;
+}
+.header1{
+	width:100%;
+	background-color:#232323;
+	color:white;
+	font-weight:600;
+	/*box-shadow:10px 10px  30px black;*/
+}
+.ul1{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+	margin-top:80px;
+	padding:10px 10px;
+	line-height:83px;
+	/*border-top:5px solid #494949;*/
+	/*box-shadow:10px 10px rgba(0,0,0,0.1);*/
+	/*border-radius:10px;*/
+}
+.photo{
+	width:50%;
+	height:100px;
+	padding-top:50px;
+	margin-left:28px;
+	margin-bottom:300px;
+	/*position:relative;*/
+}
+p.text{
+	width:100%;
+	height:140px;
+	color:white;
+	line-height:40px;
+	background-image:url("b.jpeg");
+    padding-top:165px;
+}
+.photo1 {
+	background-image:url("c.jpeg");
+	float:right;
+	width:200px;
+	height:164px;
+	margin-top:-383px;
+	margin-right:230px;
+}
+.photo1 p{
+	color:white;
+	padding-top:44px;
+} 
+.photo2{
+	background-image:url("ss.jpg");
+	background-repeat:no-repeat;
+	float:right;
+
+}
+
+
+#hot{
+	width:55%;
+	margin-left:20px;
+}
+.hot{
+	border:1px solid black;
+	width:370px;
+	height:600px;
+	box-shadow: 0 10px 5px black;
+}
+#hot h2{
+	background-color:#ff4e3a;
+	color:white;
+	font-size:20px;
+	width:66px;
+	margin-left:2px;
+	padding:10px;
+	text-align:center;
+}
+.hot img{
+	width:370px;
+}
+.hot p{
+	width:375px;
+}
+.hot1{
+	float:right;
+	margin
+}
